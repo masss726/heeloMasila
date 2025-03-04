@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Success</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #6dd5ed, #2193b0);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .success-box {
+            text-align: center;
+            padding: 30px 50px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .success-box h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .success-box p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .btn-home {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .btn-home:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="success-box">
+        <h1>🎉 Login Successful!</h1>
+        <p>Welcome back! You have successfully logged in.</p>
+        <a href="Controller?action=users" class="btn-home">Go to Home</a>
+    </div>
+</body>
+</html>
